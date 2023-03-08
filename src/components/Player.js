@@ -7,5 +7,5 @@ export default function Player() {
     state: { isXNext },
   } = useContext(GameContext);
 
-  return <h1>Player: {isXNext ? 'X' : 'O'}</h1>;
+  return <h1><h2>Jogo da Velha do Anão</h2>Jogador: {isXNext ? '1 é X' : '2 é O'}</h1>;
 }

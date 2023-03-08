@@ -12,7 +12,7 @@ export default function Board() {
   return (
     <p className="reset">
       <button type="button" onClick={handleClick}>
-        Reset
+        Reiniciar Jogo
       </button>
     </p>
   );

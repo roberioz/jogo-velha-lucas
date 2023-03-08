@@ -6,7 +6,7 @@ import Board from '../components/Board';
 
 export default function Home() {
   useEffect(() => {
-    document.title = 'Jogo da velha com React';
+    document.title = 'Jogo da velha do Lucas';
   }, []);
 
   return (
